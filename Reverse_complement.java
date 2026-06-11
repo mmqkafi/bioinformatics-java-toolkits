@@ -2,7 +2,7 @@ package bioinformatics;
 
 public class Reverse_complement {
 	
-	public String reverse_c(String lines) {
+	public void reverse_c(String lines) {
 		StringBuilder s = new StringBuilder();
 		
 		
@@ -16,10 +16,13 @@ public class Reverse_complement {
 								
 			
 			
-			
-		} return s.reverse().toString();
+		
+		}
+		System.out.println("Reverse complement: " + s.reverse());
+		
 
 		
 	}
+	
 	
 }

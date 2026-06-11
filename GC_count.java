@@ -24,7 +24,7 @@ public class GC_count {
 		double all = a + c + g + t;
 		gc = c_g / all * 100;
 		
-		
+		System.out.println("GC content in % " + gc);
 		return gc;
 	} 
 	
