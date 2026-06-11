@@ -13,9 +13,10 @@ Kmer.java > This creates k-mers (3) from sequence
 
 ## Input 
 This program accpts FASTA format file
->
+...
+>sequence1
 ACTGATGC
-
+...
 ## How to run
 compile: javac bioinformatics/*.java
 
